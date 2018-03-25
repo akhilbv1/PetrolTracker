@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_margin="7dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/petrol_listitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Text_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="petrol price:-250/-"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/Text_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Quantity:-2.4litres"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="7dp" />
+
+            <TextView
+                android:id="@+id/Text_isReserve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Reserve:-Yes"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="7dp" />
+
+            <TextView
+                android:id="@+id/Text_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Kilometres:-3312"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="7dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
